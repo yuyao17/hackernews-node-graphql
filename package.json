@@ -1,0 +1,15 @@
+{
+  "name": "hackernews-node",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "watch": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "graphql-yoga": "^1.14.12"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.3"
+  }
+}

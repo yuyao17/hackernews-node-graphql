@@ -1,4 +1,4 @@
-type Link { # each Link knows he has createLink, updateLink, and deleteLink mutation
+type Link {
     id: ID! @unique
     createdAt: DateTime!
     description: String!

@@ -1,3 +1,5 @@
+# import Link from './generated/prisma.graphql'
+
 type Query {
     info: String!
     link(id: String!): Link
@@ -8,10 +10,4 @@ type Mutation {
     createLink(description: String!, url: String!): Link!
     updateLink(id: String!, description: String!, url: String!): Link
     deleteLink(id: String!): Link
-}
-
-type Link {
-    id: ID!
-    description: String!
-    url: String!
 }
